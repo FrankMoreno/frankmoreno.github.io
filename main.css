@@ -1,22 +1,10 @@
-@font-face {font-family: "Supreme";
-    src: url("//db.onlinewebfonts.com/t/f462af0a8168d0a315da1c8d3fcf419b.eot");
-    src: url("//db.onlinewebfonts.com/t/f462af0a8168d0a315da1c8d3fcf419b.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/f462af0a8168d0a315da1c8d3fcf419b.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/f462af0a8168d0a315da1c8d3fcf419b.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/f462af0a8168d0a315da1c8d3fcf419b.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/f462af0a8168d0a315da1c8d3fcf419b.svg#Supreme") format("svg");
+body {
+    background: url('thuy.jpg') center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-div {
-    width: 100%;
-    height: 8%;
-    padding: 0;
-    margin: 0;
-    top: 0;
-    left: 0;
-    background-color: #A9A9A9;
-    font-size: 10px;
-
-    position: absolute;
-    margin: auto;
+h1 {
+  text-align: center;
+  font-family: cursive;
 }
