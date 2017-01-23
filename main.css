@@ -6,9 +6,6 @@ body {
     width: 100%;
 }
 
-h1 {
-}
-
 .circle {
   border: white 5px solid;
   border-radius: 50%;
@@ -46,6 +43,7 @@ h1 {
   border: 0px solid;
   word-break: break-all;
   font-size: 0;
+  width: 100%;
 }
 #wrap > div {
   display: inline-block;
