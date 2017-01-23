@@ -3,7 +3,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     font-family: Calibri;
+    width: 100%;
 }
+
 h1 {
 }
 
