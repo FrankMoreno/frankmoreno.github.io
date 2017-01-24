@@ -2,9 +2,8 @@ body {
     background: url('thuy.jpg') center center fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: sans-serif;
-}
-h1 {
+    font-family: Calibri;
+    width: 100%;
 }
 
 .circle {
@@ -14,6 +13,9 @@ h1 {
   height: 31%;
   margin-top: 30%;
   margin-left: 30%;
+  background: url('thuy.jpg') center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #wrapper {
   margin-left: auto;
@@ -31,6 +33,7 @@ h1 {
 }
 
 #bottomBanner {
+  position: absolute;
   width: 100%;
   text-align: center;
   bottom: 0;
@@ -38,10 +41,12 @@ h1 {
 }
 
 #wrap {
+  position: absolute;
   margin: 0 auto;
   border: 0px solid;
   word-break: break-all;
   font-size: 0;
+  width: 100%;
 }
 #wrap > div {
   display: inline-block;
