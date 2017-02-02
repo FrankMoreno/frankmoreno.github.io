@@ -9,11 +9,12 @@ body {
 }
 
 img {
-  position: relative;
-  margin-top: 13%;
-  margin-left: 25%;
-  width: 50%%;
-  height: 50%
+  margin-top: 27%;
+  width: 35%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 #wrapper {
@@ -43,11 +44,12 @@ img {
 
 #wrap {
   position: absolute;
-  margin: 0 auto;
+  margin: auto;
   border: 0px solid;
   word-break: break-all;
   font-size: 0;
   width: 100%;
+  display: block;
 }
 #wrap > div {
   display: inline-block;
