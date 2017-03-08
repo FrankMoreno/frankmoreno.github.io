@@ -2,7 +2,10 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
+ #aboutMe {
+   width: 50%;
+   float: left;
+ }
 body {
     background: url('../Pictures/thuy.jpg') center center fixed;
     background-size: cover;
@@ -24,36 +27,23 @@ body {
   color: white;
 }
 
-html {
-  height: 100%;
-  max-height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-#pdf {
-  position: relative;
-  display: block;
-  margin-top: 1%;
-  min-height: 70%;
-}
-
-#pdf > object{
-  position: absolute;
-  display: block;
-  margin-left: 25%;
-  height: 100%;
-  width: 50%;
-}
-
-#resumeHeader {
+#contactHeader {
   width: 100%;
   border-width: 2px;
   border-bottom: 4px white solid;
 }
 
-#resumeHeader > p{
+#contactHeader > p{
   font-size: 4em;
   margin: 0;
   margin-left: 15%;
+}
+
+#email {
+  float: left;
+  width: 50%;
+}
+
+#wrap {
+  width: 100%;
 }
