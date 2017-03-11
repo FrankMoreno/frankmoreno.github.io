@@ -44,7 +44,9 @@ body {
 }
 
 #icon > img {
-  height: 100%;
+  height: auto;
+  min-width: 100%;
+  max-width: 100%;
 }
 
 #interestsHeader{
@@ -55,7 +57,7 @@ body {
 #interestsHeader > p {
   font-size: 4em;
   width: 100%;
-  margin-top: 1.5%;
+  margin-top: 1.4%;
   border-width: 2px;
   border-bottom: 4px white solid;
   padding-left: 4%;
