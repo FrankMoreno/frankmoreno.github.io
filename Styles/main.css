@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Bebas";
+    src: url("../Fonts/BebasNeue Bold.ttf");
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -34,6 +39,10 @@ img {
   margin-top: 8%;
   font-size: 65px;
   line-height: 0px;
+}
+#topBanner > h1 {
+  font-family: Bebas;
+  font-size: 3em;
 }
 #circleLeft, #circleMid, #circleRight {
   width: 33.33333%;
