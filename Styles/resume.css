@@ -63,7 +63,8 @@ html {
 #resumeHeader > p{
   font-size: 4em;
   margin: 0;
+  padding: 0;
   margin-left: 15%;
   font-family: Bebas;
-  margin-bottom: -15px;
+  margin-bottom: -1%;
 }
