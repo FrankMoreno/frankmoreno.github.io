@@ -3,6 +3,10 @@ a {
   color: inherit;
 }
 
+a:hover {
+  opacity: 0.5;
+}
+
 body {
     background: url('../Pictures/thuy.jpg') center center fixed;
     background-size: cover;
@@ -58,16 +62,17 @@ body {
   font-size: 350%;
   font-family: Franklin Gothic Book Regular;
   width: 100%;
-  margin-top: 1.4%;
+  margin-top: 3%;
+  line-height: 0.8  ;
   border-width: 2px;
-  border-bottom: 4px white solid;
+  border-bottom: 2px white solid;
   padding-left: 4%;
 }
 
 .container{
     float: left;
     margin: 0;
-    width:1200px;
+    width:900px;
     height:700px;
     overflow:hidden;
     position:relative;
@@ -112,7 +117,7 @@ body {
 .box {
     display:inline-block;
     float: left;
-    width: 1200px;
+    width: 900px;
     height: 100px;
 }
 .one{

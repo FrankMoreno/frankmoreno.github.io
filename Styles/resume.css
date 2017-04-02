@@ -15,11 +15,12 @@ body {
     background: url('../Pictures/thuy.jpg') center center fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: Bespoke;
+    font-family: calibri;
     width: 100%;
     max-width: 100%;
     height: 100%;
     overflow-x: hidden;
+    overflow-y: hidden;
     margin: 0;
     padding: 0;
 }
@@ -56,15 +57,16 @@ html {
 
 #resumeHeader {
   width: 100%;
-  border-width: 2px;
-  border-bottom: 4px white solid;
 }
 
 #resumeHeader > p{
-  font-size: 4em;
-  margin: 0;
-  padding: 0;
-  margin-left: 15%;
-  font-family: Bebas;
-  margin-bottom: -1%;
+  font-size: 350%;
+  font-family: Franklin Gothic Book Regular;
+  width: 100%;
+  margin-top: 2.7%;
+  margin-bottom: 0;
+  line-height: 0.8  ;
+  border-width: 2px;
+  border-bottom: 2px white solid;
+  padding-left: 14%;
 }
