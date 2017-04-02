@@ -2,6 +2,22 @@
 <html>
 <head>
   <link rel = "stylesheet" type= "text/css" href="../Styles/interests.css">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>
+  <script>
+  $(document).ready(function(){
+     $('.rightarrow').on("click", function() {
+        // Is this the last div, or is there a next one?
+        var animSpeed = 200;  // Make this 0 for an instant change
+        $('.boxes').animate({marginLeft : "-=1200"}, animSpeed);
+    });
+
+     $('.leftarrow').on("click", function() {
+        // Is this the last div, or is there a next one?
+        var animSpeed = 200;  // Make this 0 for an instant change
+        $('.boxes').animate({marginLeft : "+=1200"}, animSpeed);
+    });
+  });
+  </script>
 </head>
 <body>
   <div id = "headerWrap">
@@ -9,9 +25,34 @@
       <img src = "../Pictures/camera.png">
     </div>
     <div id = "interestsHeader">
-      <p></t></t>Interests </p>
+        <p></t></t>I N T E R E S T S </p>
     </div>
   </div>
+  <span class="leftarrow"> <img src = "../Pictures/arrow-left-white.png"></img> </span>
+  <div class="container">
+      <div class="boxes">
+          <div class="one box">
+            <p> D E S I G N </p>
+            <div class = "description">
+              <p>from doing crafty school projects, to designing yearbook layouts </br>
+                to creating content for clubs and organizations, I love to express creativity when I can. </br>
+                everything on this website was photographed or designed by me.
+              </p>
+            </div>
+            <img src = "../Pictures/design_collage.png"></img>
+          </div>
+          <div class="two box">
+            <p> P H O T O G R A P H Y </p>
+            <div class = "description">
+              <p>I am a self-taught hobbyist photographer that specializes in portrait photography. </br>
+                I got my first digital camera in the 4th grade and I have been shooting ever since. </br>
+              </p>
+            </div>
+            <img src = "../Pictures/photo_collage.png"></img>
+          </div>
+    </div>
+</div>
+    <span class="rightarrow"> <img src = "../Pictures/arrow-right-white.png"></img> </span>
   <div id = "bottomBanner">
     <p><a href = "../index.html"> home </a>| <a href ="./resume.html"> resume </a> | <a href ="./contact.html"> contact </a></p>
   </div>
