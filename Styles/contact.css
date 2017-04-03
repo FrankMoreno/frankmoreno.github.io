@@ -11,14 +11,15 @@ a {
   color: inherit;
 }
  #aboutMe {
-   width: 50%;
+   margin-left: 20%;
+   width: 30%;
    float: left;
 }
 body {
     background: url('../Pictures/thuy.jpg') center center fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: Bespoke;
+    font-family: calibri;
     width: 100%;
     max-width: 100%;
     height: 100%;
@@ -37,23 +38,47 @@ body {
 
 #contactHeader {
   width: 100%;
-  border-width: 2px;
-  border-bottom: 4px white solid;
 }
 
 #contactHeader > p{
-  font-size: 4em;
-  margin: 0;
-  margin-left: 15%;
-  font-family: Bebas;
-  margin-bottom: -15px;
+  font-size: 350%;
+  font-family: Franklin Gothic Book Regular;
+  width: 100%;
+  margin-top: 2.7%;
+  margin-bottom: 0;
+  line-height: 0.8  ;
+  border-width: 2px;
+  border-bottom: 2px white solid;
+  padding-left: 14%;
 }
 
+#descriptions {
+  margin: 0;
+  text-align: right;
+  margin-right: 10%;
+  font-size: 120%;
+  margin-top: 20%;
+  background: rgba(37, 46, 51, 0.75);
+  color: #ffffff;
+  padding: 2%;
+}
+
+#descriptions > p{
+  padding: 0;
+  margin: 0;
+  margin-bottom: 2%;
+}
+#descriptions > a > img {
+  width: 13%;
+}
 #email {
   float: left;
-  width: 50%;
+  width: 30%;
+  margin-top: 10%;
 }
-
+img:hover {
+  opacity: 0.5;
+}
 #wrap {
   width: 100%;
 }
