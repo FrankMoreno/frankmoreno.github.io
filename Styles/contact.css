@@ -74,11 +74,35 @@ body {
 #email {
   float: left;
   width: 30%;
-  margin-top: 10%;
+  margin-top: 5%;
+  border: 0;
+  font-size: 20px;
+}
+input {
+  border: none;
+  outline: none;
+}
+textarea {
+  border: none;
+  outline: none;
 }
 img:hover {
   opacity: 0.5;
 }
 #wrap {
   width: 100%;
+}
+.name {
+  font-size: 18px;
+}
+.other{
+  font-size: 18px;
+  width: 92%;
+}
+.buttons {
+  background-color: rgba(37, 46, 51, 0.75);
+  color: white;
+  width: 20%;
+  height: 2em;
+  font-size: 17px;
 }
