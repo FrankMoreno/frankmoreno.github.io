@@ -1,0 +1,178 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+body {
+    background: url('../Pictures/thuy.jpg') center center fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Calibri;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#bottomBanner {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  color: white;
+}
+
+#headerWrap{
+  position: relative;
+  margin: auto;
+  border: 0px solid;
+  width: 100%;
+  display: block;
+  height: 20%;
+}
+
+#headerWrap > div {
+  display: inline-block;
+}
+
+#icon {
+  float: left;
+  height: 100%;
+  width: 10.2%;
+}
+
+#icon > img {
+  height: auto;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+#interestsHeader{
+  width: 89.8%;
+  overflow: hidden;
+}
+
+#interestsHeader > p {
+  font-size: 350%;
+  font-family: Franklin Gothic Book Regular;
+  width: 100%;
+  margin-top: 3%;
+  line-height: 0.8  ;
+  border-width: 2px;
+  border-bottom: 2px white solid;
+  padding-left: 4%;
+}
+
+.container{
+    float: left;
+    margin: 0;
+    margin-left: 15%;
+    width:70%;
+    height:700px;
+    overflow:hidden;
+    position:relative;
+}
+
+.leftarrow{
+  margin-top: 11%;
+  float: left;
+  height: 100%;
+}
+.rightarrow{
+  margin-top: 11%;
+  float: left;
+  height: 100%;
+  margin-left: 5%;
+}
+.leftarrow > img {
+  margin-top: 27%;
+  width: 39%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  opacity: 0.25;
+}
+.rightarrow > img {
+  margin-top: 27%;
+  width: 39%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  opacity: 0.25;
+}
+.leftarrow > img:hover {
+  opacity: 0.75;
+}
+
+.rightarrow > img:hover {
+  opacity: 0.75;
+}
+
+
+.box {
+    display:inline-block;
+    float: left;
+    width: 900px;
+    height: 100px;
+}
+.one{
+
+}
+.one > img {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+.one > p {
+  text-align: center;
+  font-size: 200%;
+  font-family: Franklin Gothic Book Regular;
+  margin: 0;
+}
+.description {
+  margin: 0;
+  font-size: 110%;
+  line-height:0.9;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.description > p {
+  margin: 0;
+  margin-bottom: 1%;
+}
+.two > img {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+.two > p {
+  text-align: center;
+  font-size: 200%;
+  margin: 0;
+  font-family: Franklin Gothic Book Regular;
+}
+.three{
+    background-color:blue;
+}
+.boxes{
+    width:3000px;
+}
+.leftHalf {
+  float: left;
+}
+.rightHalf {
+  width: 40%;
+  float: left;
+}
