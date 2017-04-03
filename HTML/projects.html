@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel = "stylesheet" type= "text/css" href="../Styles/interests.css">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>
+  <script>
+  $(document).ready(function(){
+     $('.rightarrow').on("click", function() {
+        // Is this the last div, or is there a next one?
+        var animSpeed = 200;  // Make this 0 for an instant change
+        $('.boxes').animate({marginLeft : "-=900"}, animSpeed);
+    });
+
+     $('.leftarrow').on("click", function() {
+        // Is this the last div, or is there a next one?
+        var animSpeed = 200;  // Make this 0 for an instant change
+        $('.boxes').animate({marginLeft : "+=900"}, animSpeed);
+    });
+  });
+  </script>
+</head>
+<body>
+  <div id = "headerWrap">
+    <div id = "icon">
+      <img src = "../Pictures/pencil.png">
+    </div>
+    <div id = "interestsHeader">
+        <p></t></t>P R O J E C T S </p>
+    </div>
+  </div>
+  <span class="leftarrow"> <img src = "../Pictures/arrow-left-white.png"></img> </span>
+  <div class="container">
+      <div class="boxes">
+          <div class="one box">
+            <p> B R A N D  &nbsp; A U D I T </p>
+            <div class = "description">
+              <p>in my product and brand management class, our cumulative project was to complete a </br>
+                brand audit for any brand which includes a brand inventory and exploratory. </br>
+                I chose sony mobile communications, and presented my audit in the form of a website. </br>
+                a few screenshots are provided below, and you may follow this link to view the site.  </br>
+
+              </p>
+            </div>
+            <img src = "../Pictures/brand_audit_img.png"></img>
+          </div>
+          <div class="two box">
+            <p> S Y S T E M S &nbsp; A N A L Y S I S  &nbsp; & &nbsp; D E S I G N</p>
+            <div class = "description">
+              <p>in my systems analysis and design class, we created a project proposal for a new system. </br>
+                we then followed the planning and design steps of the systems development life cycle (SDLC) </br>
+                and created a final report to compile all project deliverables of our proposed system.  </br>
+              </p>
+            </div>
+            <object data="../Systems_Analysis_and_Design.pdf"; type="application/pdf"; width="100%"; height="500%">
+              <p><b>Example fallback content</b>: This browser does not support PDFs. Please download the PDF to view it: <a href="../Systems_Analysis_and_Design.pdf">Download PDF</a>.</p>
+            </object>
+          </div>
+          <div class="three box">
+            <p> B R A N D  &nbsp; A U D I T </p>
+            <div class = "description">
+              <p>in my product and brand management class, our cumulative project was to complete a </br>
+                brand audit for any brand which includes a brand inventory and exploratory. </br>
+                I chose sony mobile communications, and presented my audit in the form of a website. </br>
+                a few screenshots are provided below, and you may follow this link to view the site.  </br>
+
+              </p>
+            </div>
+            <img src = "../Pictures/brand_audit_img.png"></img>
+          </div>
+    </div>
+</div>
+    <span class="rightarrow"> <img src = "../Pictures/arrow-right-white.png"></img> </span>
+  <div id = "bottomBanner">
+    <p><a href = "../index.html"> home </a>| <a href ="./resume.html"> resume </a> | <a href ="./contact.html"> contact </a></p>
+  </div>
+</body>
+</html>
