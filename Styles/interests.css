@@ -150,10 +150,9 @@ body {
   margin-bottom: 1%;
 }
 .two > img {
-  width: 100%;
+  width: 90%;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
   padding: 0;
 }
 .two > p {
@@ -167,4 +166,10 @@ body {
 }
 .boxes{
     width:3000px;
+}
+.buttons > a > img {
+  width: 5%;
+}
+.buttons > img:hover {
+  opacity: 0.75;
 }
