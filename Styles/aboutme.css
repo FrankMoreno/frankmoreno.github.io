@@ -181,6 +181,18 @@ body {
   width: 90%;
 }
 .bottomHalf {
+  width: 83.5%;
   text-align: right;
   color: white;
+  margin-left: 14.8%;
+  font-size: 18px;
+  padding-bottom: 3%;
+  background: rgba(37, 46, 51, 0.75);
+}
+.bottomHalf > p {
+  margin: 0;
+  padding: 0;
+}
+.topHalf {
+  margin-left: 15%;
 }
